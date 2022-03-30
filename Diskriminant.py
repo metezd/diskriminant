@@ -3,9 +3,14 @@ import os
 
 count = 0
 while count < 5:
+    os.system('cls' if os.name == 'nt' else 'clear')
     os.system('title 2 bilinmeyenli bir denklemin kökünü bulma')
-    os.system('color a') # yeşil rengi sağlar
-    os.system('powershell write-host -fore Red Iki bilinmeyenli bir denklemin kokunu bulma [Matematik Projesi]')
+    os.system('color 4') # kırmızı
+    print("#####################################################################")
+    print("#                                                                   #")
+    print("#  2 bilinmeyenli bir denklemin kokunu bulma [Matematik Projesi]    #")
+    print("#                                                                   #")
+    print("#####################################################################")
 
     print()
     print("ikinci dereceden bir denklemin kokunu bulmak icin asagidaki degerleri girin")
@@ -35,4 +40,3 @@ while count < 5:
     print()
     print("Yeniden yapmak icin rastgele bir tusa basin")
     os.system ('pause > nul') # input("Bir daha yapmak icin rastgele bir tusa basin...")
-    os.system('cls' if os.name == 'nt' else 'clear')
