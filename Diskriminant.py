@@ -9,6 +9,7 @@ while count < 5:
     print("#####################################################################")
     print("#                                                                   #")
     print("#  2 bilinmeyenli bir denklemin kokunu bulma [Matematik Projesi]    #")
+    print("#  Projenin kaynak kodu: https://tknk.io/fz6P                       #")
     print("#                                                                   #")
     print("#####################################################################")
 
